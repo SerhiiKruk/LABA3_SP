@@ -440,7 +440,6 @@ public class Lexer {
     {
         StringBuilder word = new StringBuilder();
         LexemValue lv;
-        System.out.print("FDSFS");
         for(int i = 0; i < line.length(); i++)
         {
             if(Character.isAlphabetic(line.charAt(i)) || Character.isDigit(line.charAt(i)) || line.charAt(i) == '_' || line.charAt(i) == '\'')
